@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Travel Buddy",
+    "slug": "travel-buddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FAF7F2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.travelbuddy.app"
+    },
+    "android": {
+      "package": "com.travelbuddy.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF7F2",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f18b589-3c6b-427c-8778-43310dfc1dd5"
+      }
+    },
+    "owner": "imadmd-team"
+  }
+}
